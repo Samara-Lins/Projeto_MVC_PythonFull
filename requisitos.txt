@@ -1,0 +1,12 @@
+Cadastro\ Edição\ Exclusão de:
+- Categoria
+- Produto
+- Fornecedor
+- Cliente
+- Funcionário
+
+Relatórios:
+- Vendas geral
+- Vendas por data
+- Produtos mais vendidos
+- Clientes que mais compraram

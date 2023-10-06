@@ -5,16 +5,16 @@ class CategoriaDao:
     @classmethod
     def cadastrar_categoria(cls, categoria:Categoria):
         with open('categorias.txt','a') as cat:
-            cat.writelines(f'{categoria.nome} - {categoria.descricao}\n')
+            cat.writelines(f'{categoria.nome}|{categoria.descricao}\n')
+
 
     @classmethod
-    def recuperar(cls):
+    def ler(cls):
         with open('categorias.txt','r') as cat:
             categorias = cat.readlines()
-            categorias.sort()
-
-    @classmethod
-    def atualizar(cls):
-        with open('categorias.txt','w') as cat:
-            for c in categorias:
-                cat.writelines(c)
+            remover_quebra = list(map(lambda x: x.replace('\n',''),categorias))
+            lista_categorias = []
+            for c in remover_quebra:
+                l = c.split('|')
+                lista_categorias.append(l)
+            print(lista_categorias)
