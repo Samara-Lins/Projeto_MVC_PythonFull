@@ -1,4 +1,4 @@
-import datetime
+from datetime import now
 
 class Categoria:
 
@@ -44,7 +44,7 @@ class Funcionario(Pessoa):
 
 class Venda:
 
-    def __init__(self, itensVendidos:dict, data, vendedor:Funcionario, comprador:Cliente):
+    def __init__(self, itensVendidos:list, data, vendedor, comprador):
         self.itensVendidos = itensVendidos
         self.data = data
         self.vendedor = vendedor

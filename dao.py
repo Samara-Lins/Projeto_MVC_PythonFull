@@ -16,5 +16,17 @@ class CategoriaDao:
             lista_categorias = []
             for c in remover_quebra:
                 l = c.split('|')
-                lista_categorias.append(l)
+                lista_categorias.append(Categoria(l[0],l[1]))
             print(lista_categorias)
+
+class VendaDao:
+
+    @classmethod
+    def efetuar_venda(cls,venda:Venda):
+        with open('vendas.txt','a') as vend:
+            for k,v in venda.itensVendidos:
+                vend.writelines(f'{v} {k}')
+            vend.writelines(f'{venda.vendedor}')
+            vend.writelines(f'{venda.comprador}')
+            vend.writelines(f'{venda.data}')
+
