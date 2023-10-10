@@ -8,3 +8,4 @@ venda = Venda(lista_compras,datetime.now().strftime('%d/%m/%Y'),'Matheus','Maria
 
 VendaDao.efetuar_venda(venda)
 VendaDao.ler()
+
