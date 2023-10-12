@@ -1,7 +1,7 @@
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
@@ -11,7 +11,7 @@ Mariana
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
@@ -21,7 +21,7 @@ Mariana
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
@@ -31,7 +31,7 @@ Mariana
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
@@ -41,7 +41,7 @@ Mariana
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
@@ -51,7 +51,7 @@ Mariana
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
@@ -61,7 +61,7 @@ Mariana
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
@@ -71,7 +71,7 @@ Mariana
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
@@ -81,10 +81,79 @@ Mariana
 4 Repolho
 2 Chocolate
 1 Amaciante
-2 Sabão em pó
+2 Sabï¿½o em pï¿½
 -----
 Matheus
 Mariana
 10/10/2023
+
+
+4 Repolho
+2 Chocolate
+1 Amaciante
+2 Sabï¿½o em pï¿½
+-----
+Matheus
+Mariana
+12/10/2023
+
+
+4 Repolho
+2 Chocolate
+1 Amaciante
+2 Sabï¿½o em pï¿½
+-----
+Matheus
+Mariana
+12/10/2023
+
+
+4 Repolho
+2 Chocolate
+1 Amaciante
+2 Sabï¿½o em pï¿½
+-----
+Matheus
+Mariana
+12/10/2023
+
+
+4 Repolho
+2 Chocolate
+1 Amaciante
+2 Sabï¿½o em pï¿½
+-----
+Matheus
+Mariana
+12/10/2023
+
+
+4 Repolho
+2 Chocolate
+1 Amaciante
+2 Sabï¿½o em pï¿½
+-----
+Matheus
+Mariana
+12/10/2023
+
+
+4 Repolho
+2 Chocolate
+1 Amaciante
+2 Sabï¿½o em pï¿½
+-----
+Matheus
+Mariana
+12/10/2023
+
+4 Repolho
+2 Chocolate
+1 Amaciante
+2 Sabão em pó
+-----
+Matheus
+Mariana
+12/10/2023
 
 
