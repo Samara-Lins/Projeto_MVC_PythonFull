@@ -41,9 +41,10 @@ class VendaDao:
             VendaDao.vendas = VendaDao.vendas.split('\n\n')
             for v in VendaDao.vendas:
                 lista = v.split('-----\n')
+                print(lista)
+                lista = list(map(lambda x: x.remove('\n'), lista))
+                print(lista)
                 sub1 = lista[0]
                 sub2 = lista[1]
                 produtos = sub1.split('\n')
-                print(produtos)
                 sub2 = sub2.split('\n')
-                print(sub2)
