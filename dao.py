@@ -39,10 +39,11 @@ class VendaDao:
         with open('vendas.txt','r') as vend:
             VendaDao.vendas = vend.read()
             VendaDao.vendas = VendaDao.vendas.split('\n\n')
+            VendaDao.vendas.pop()
             for v in VendaDao.vendas:
                 lista = v.split('-----\n')
                 print(lista)
-                lista = list(map(lambda x: x.remove('\n'), lista))
+                lista = list(map(lambda x: x.replace('\n',''), lista))
                 print(lista)
                 sub1 = lista[0]
                 sub2 = lista[1]
