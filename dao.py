@@ -37,16 +37,22 @@ class VendaDao:
     @classmethod
     def ler(cls):
         with open('vendas.txt','r') as vend:
+            vendas = []
             VendaDao.vendas = vend.read()
             VendaDao.vendas = VendaDao.vendas.split('\n\n')
             VendaDao.vendas.pop()
             for v in VendaDao.vendas:
                 lista = v.split('-----\n')
-                print(lista)
                 sub1 = lista[0].split('\n')
                 sub2 = lista[1].split('\n')
                 for i in sub1:
                     if i == '':
                         sub1.remove(i)
-                print(sub1)
-                print(sub2)
+                produtos = []
+                for j in sub1:
+                    produto = j.split(' ')
+                    produto = {'Produto':produto[1],'Quantidade':produto[0]}
+                    produtos.append(produto)
+                venda = Venda(produtos,sub2[0],sub2[1],sub2[2])
+                vendas.append(venda)
+            print(vendas)
