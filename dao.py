@@ -19,6 +19,20 @@ class CategoriaDao:
                 lista_categorias.append(Categoria(l[0],l[1]))
             print(lista_categorias)
 
+class ProdutoDao:
+
+    @classmethod
+    def cadastrar_produto(cls, produto:Produto):
+        with open('produtos.txt','a') as prod:
+            prod.writelines(f'{produto.nome} | {produto.categoria} | R${produto.preco}')
+
+    @classmethod
+    def ler(cls):
+        with open('produtos.txt','r') as prod:
+            produtos = prod.readlines()
+            remover_quebra = list(map(lambda x:x.replace('\n',''),produtos))
+            
+
 class VendaDao:
 
     @classmethod
